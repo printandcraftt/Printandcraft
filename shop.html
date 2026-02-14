@@ -1,1 +1,104 @@
-l
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop - Print & Craft</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #F3E8FF;
+        color: #4B2E83;
+        text-align: center;
+    }
+
+    header {
+        background: linear-gradient(to right, #E6D6F5, #D8B4FE);
+        padding: 40px 20px;
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        padding: 50px 20px;
+    }
+
+    .card {
+        background: white;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    }
+
+    .price {
+        font-weight: bold;
+        margin: 10px 0;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background: #A855F7;
+        color: white;
+        border-radius: 25px;
+        text-decoration: none;
+    }
+
+    .btn:hover {
+        background: #7E22CE;
+    }
+
+    .back {
+        margin: 40px;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Our Collection 💜</h1>
+    <p>Choose something beautiful for your special moment.</p>
+</header>
+
+<section class="products">
+
+    <div class="card">
+        <h3>🌸 Bouquet</h3>
+        <p>Elegant arrangement crafted with love.</p>
+        <div class="price">₱799</div>
+        <a href="#" class="btn">Order Now</a>
+    </div>
+
+    <div class="card">
+        <h3>📸 Polaroid Prints</h3>
+        <p>A memory you can hold forever.</p>
+        <div class="price">₱25 each</div>
+        <a href="#" class="btn">Order Now</a>
+    </div>
+
+    <div class="card">
+        <h3>🔑 Keychain</h3>
+        <p>Small but meaningful keepsake.</p>
+        <div class="price">₱99</div>
+        <a href="#" class="btn">Order Now</a>
+    </div>
+
+    <div class="card">
+        <h3>🖼 Photo Frame</h3>
+        <p>Display your memories beautifully.</p>
+        <div class="price">₱199</div>
+        <a href="#" class="btn">Order Now</a>
+    </div>
+
+</section>
+
+<div class="back">
+    <a href="index.html" class="btn">Back to Home</a>
+</div>
+
+</body>
+</html>
