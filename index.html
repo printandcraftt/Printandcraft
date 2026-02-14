@@ -1,1 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soft Lavender Studio</title>
 
+<style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background: #F3E8FF;
+        color: #4B2E83;
+    }
+
+    header {
+        background: linear-gradient(to right, #E6D6F5, #D8B4FE);
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    header p {
+        font-size: 18px;
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .btn {
+        display: inline-block;
+        margin: 15px 10px;
+        padding: 12px 25px;
+        background: #A855F7;
+        color: white;
+        border-radius: 30px;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background: #7E22CE;
+    }
+
+    section {
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    .categories {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    .card {
+        background: white;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    footer {
+        background: #E9D5FF;
+        padding: 30px;
+        text-align: center;
+        font-size: 14px;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Create Beautiful Memories 💜</h1>
+    <p>
+        From handcrafted bouquets to personalized keepsakes, we turn your
+        special moments into something you can hold and treasure forever.
+    </p>
+    <a href="#shop" class="btn">Shop Now</a>
+    <a href="#custom" class="btn">Customize Order</a>
+</header>
+
+<section id="about">
+    <h2>More Than Just a Gift Shop</h2>
+    <p>
+        We believe every memory deserves to be celebrated. Our shop creates
+        meaningful, affordable, and beautifully designed products that make
+        every moment extra special.
+    </p>
+</section>
+
+<section id="shop">
+    <h2>Shop by Category 💜</h2>
+
+    <div class="categories">
+        <div class="card">
+            <h3>🌸 Bouquets</h3>
+            <p>Thoughtfully arranged blooms that speak from the heart.</p>
+        </div>
+
+        <div class="card">
+            <h3>📸 Polaroids</h3>
+            <p>Turn your favorite photos into timeless keepsakes.</p>
+        </div>
+
+        <div class="card">
+            <h3>🔑 Keychains</h3>
+            <p>Small but meaningful pieces you can carry everywhere.</p>
+        </div>
+
+        <div class="card">
+            <h3>🖼 Frames</h3>
+            <p>Display your memories beautifully and proudly.</p>
+        </div>
+    </div>
+</section>
+
+<section id="custom">
+    <h2>Make It Personal 💌</h2>
+    <p>
+        Add names, messages, colors, or photos to make your order
+        one-of-a-kind. The little details make your gift unforgettable.
+    </p>
+    <a href="#" class="btn">Message Us to Order</a>
+</section>
+
+<section>
+    <h2>Loved by Our Customers 💜</h2>
+    <p>
+        We are grateful for every order and every message you send.
+        Your support inspires us to continue creating beautiful memories.
+    </p>
+</section>
+
+<footer>
+    © 2026 Soft Lavender Studio | Made with Love 💜
+</footer>
+
+</body>
+</html>
